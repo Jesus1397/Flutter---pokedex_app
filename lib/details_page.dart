@@ -23,6 +23,7 @@ class DetailsPage extends StatelessWidget {
               left: 0,
               right: 0,
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     width: size.width,
@@ -128,10 +129,10 @@ class DetailsPage extends StatelessWidget {
                   ),
                   Container(
                     width: size.width,
-                    height: size.height * 0.55 - 24,
+                    height: size.height * 0.55 - 32,
                     padding: const EdgeInsets.symmetric(
                       horizontal: 40,
-                      vertical: 60,
+                      vertical: 50,
                     ),
                     decoration: BoxDecoration(
                       color: getColor(args.type).withOpacity(0.9),
